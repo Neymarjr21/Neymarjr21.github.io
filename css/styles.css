@@ -334,3 +334,127 @@
   line-height: 43px;
   color: #FFFFFF;
 }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+}
+
+.contact-intro {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  margin: 24px;
+  color: #172B4D;
+}
+
+.form-list {
+  display: flex;
+  margin: 24px;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+#name {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+  width: 90%;
+  border: none;
+  margin-top: 24px;
+  padding: 12px;
+  border-bottom: 1px solid #979493;;
+}
+
+#email {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+  border: none;
+  margin-top: 24px;
+  padding: 12px;
+  width: 90%;
+  border-bottom: 1px solid #979493;
+}
+
+#message {
+  margin-right: 24px;
+  padding: 12px;
+  margin-top: 24px;
+  width: 90%;
+  margin-bottom: 12px;
+  background: #FBF8F7;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3C3A39;
+}
+
+#button4 {
+  text-align: center;
+  padding: 12px;
+  width: 131px;
+  height: 48px;
+  margin-bottom: 120px;
+  background: #FF6B00;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: 0.5s;
+  align-self: center;
+}
+
+#button4:hover {
+  color: #FF6B00;
+  background-color: #FFF5E1;
+}
+
+.social-link-b {
+  display: flex;
+  flex-direction: column;
+}
+
+.list4  {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+hr {
+  height: 1px;
+  background: #DFE1E6;
+  border: none;
+}
+.list4 li {
+  display: inline-block;
+  padding: 12px;
+}
+
+.hr {
+  width: 134px;
+  height: 5px;
+  bottom: 8px;
+  background: #0D151E;
+  border-radius: 10px;
+  margin-left: 120px;
+}
